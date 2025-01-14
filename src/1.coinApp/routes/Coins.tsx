@@ -97,7 +97,7 @@ function Coins() {
       </Helmet>
       <Header>
         <Title>Coins</Title>
-        <button onClick={toggleDarkAtom}>Toggle Mode</button>
+        {/* <button onClick={toggleDarkAtom}>Toggle Mode</button> */}
       </Header>
       {isLoading ? (
         <Loader>Loading...</Loader>
